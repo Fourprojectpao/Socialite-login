@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.wrapper {
+    display: flex; /* Mengatur tombol secara horizontal */
+    gap: 5px; /* Memberikan jarak antar tombol */
+}
+
+.wrapper .button {
+    display: flex;
+    flex-direction: column; /* Menumpuk ikon dan teks secara vertikal */
+    align-items: center; /* Menjaga ikon dan teks tetap sejajar di tengah */
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #f0eded;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s ease-out, height 0.3s ease-out, flex-direction 0.3s ease-out;
+}
+
+.wrapper .button:hover {
+    width: 200px; /* Memperbesar tombol ke samping */
+    flex-direction: row; /* Mengubah susunan dari vertikal menjadi horizontal */
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+    background: #555454;
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+    background: #1c6cb6;
+}
+
+.wrapper .button .icon {
+    display: flex; /* Menjaga ikon berada di tengah */
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: width 0.3s ease-out, height 0.3s ease-out, flex-direction 0.3s ease-out;
+}
+
+.wrapper .button span {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px; /* Jarak antara ikon dan teks saat vertikal */
+    line-height: 1;
+    text-align: center;
+    transition: margin-top 0.3s ease-out, margin-left 0.3s ease-out; /* Animasi perubahan margin */
+}
+
+.wrapper .button:hover span {
+    margin-top: 0; /* Menghilangkan margin top saat di-hover */
+    margin-left: 10px; /* Menambahkan margin kiri agar teks berada di samping ikon */
+}
+
+.wrapper .button:nth-child(2):hover span {
+    color: #1c6cb6;
+}
