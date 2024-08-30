@@ -16,7 +16,7 @@ Struktur Proyek
 Frontend: Menggunakan Vue.js dengan Inertia.js untuk membangun antarmuka pengguna yang dinamis.
 Backend: Menggunakan Laravel sebagai framework utama untuk menangani logika bisnis dan manajemen data.
 Database: Menggunakan migrasi Laravel untuk mengelola skema database
-=======
+
 ## Persyaratan
 
 - PHP >= 7.3
