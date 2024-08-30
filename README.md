@@ -75,3 +75,8 @@ GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 GOOGLE_REDIRECT_URI=http://localhost:8000/auth/google/login
 
+
+Screenshoot
+![logi 2](https://github.com/user-attachments/assets/acb1c3f7-39eb-473a-afe0-e7caa50ecd78)
+![login](https://github.com/user-attachments/assets/8a560aad-dafd-4bf8-91a3-c79f109a765e)
+
